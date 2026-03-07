@@ -9,3 +9,4 @@ use App\Http\Controllers\HomeController;
  
 Route::get('/', [HomeController::class, 'index']); 
 Route::get('/contact', [HomeController::class, 'contact']); 
+Route::get('/', function () {return view('landing_page');});
