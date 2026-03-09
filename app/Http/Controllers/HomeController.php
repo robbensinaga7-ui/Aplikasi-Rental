@@ -8,8 +8,8 @@
           //  'pekerjaan' => 'Developer', 
         //]; 
         // return view('home')->with($data); 
-        $nama = "Teddy"; 
-        $pekerjaan = "Fashion Desainer"; 
+        $nama = "Anto"; 
+        $pekerjaan = "Pengacara"; 
         return view('home', compact('nama', 'pekerjaan')); 
     } 
     public function contact() 
